@@ -7,7 +7,7 @@ import (
 )
 
 func paymentsHandler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintln(w, "Payments module version", os.Getenv("VERSION"))
+    fmt.Fprintln(w, "Payments microservice version", os.Getenv("VERSION"))
 }
 
 func main() {
