@@ -1,7 +1,7 @@
 web-payments
 ============
 
-This image runs a web service in 8080 port, used for show micorservice concept. It comes from rawmind/alpine-base.
+This image runs a web service in 8080 port, used for show microservice concept. It comes from rawmind/alpine-base.
 
 ## Build
 
