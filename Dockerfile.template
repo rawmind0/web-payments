@@ -27,7 +27,7 @@ ENV SERVICE_HOME=/opt/web-payments \
 ENV PATH=\$PATH:\$SERVICE_HOME
 
 # Add service files
-ADD root/src /opt/src/github.com/rawmind0/web-inventory
+ADD root/src /opt/src/github.com/rawmind0/web-payments
 ADD root/test.sh /tmp/
 
 RUN apk add --update go git musl-dev jq \ 
